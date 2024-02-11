@@ -12,7 +12,7 @@ d - touch /home/altschool/misc/fileB
 
 e - cp /home/altschool/misc/fileA /home/altschool/misc/fileC
 
-f - cp /home/altschool/misc/fileB /home/altschool/misc/fileD
+f - mv /home/altschool/misc/fileB /home/altschool/misc/fileD
 
 g - tar -cvf /home/altschool/misc.tar -C /home/altschool misc
 
