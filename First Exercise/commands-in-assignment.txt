@@ -1,0 +1,34 @@
+
+sudo mkdir code tests personal misc
+
+a - cd /home/altschool/tests
+
+b - cd tests
+
+c - echo 'Hello A' > /home/altschool/misc/fileA
+
+d - touch /home/altschool/misc/fileB
+    echo 'Hello B' > /home/altschool/misc/fileB
+
+e - cp /home/altschool/misc/fileA /home/altschool/misc/fileC
+
+f - mv /home/altschool/misc/fileB /home/altschool/misc/fileD
+
+g - tar -cvf /home/altschool/misc.tar -C /home/altschool misc
+
+h - gzip /home/altschool/misc.tar
+
+i - useradd -m -s /bin/bash -p 'p@ss' ibrahim 
+    passwd -e ibrahim
+
+j - passwd -l altschool-user
+
+k - useradd -r -s /usr/sbin/nologin altschool-user1
+
+l - sudo vi /etc/ssh/sshd_config
+    edit and set - PasswordAuthentication no
+    sudo systemctl restart sshd
+
+m - sudo nano /etc/ssh/sshd_config
+    edit and set - PermitRootLogin no
+    sudo systemctl restart sshd
